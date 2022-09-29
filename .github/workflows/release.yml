@@ -37,7 +37,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install
         run: |
-          yarn install --frozen-lockfile
+          yarn install
           echo "${{ secrets.QINIU_ENV_JS }}" > qiniu_env.js
 
       - name: Release for Windows

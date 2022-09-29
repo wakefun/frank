@@ -7,6 +7,13 @@
   "main": "background.js",
   "email": "java_s@qq.com",
   "description": "A bran-new League of Legends assistant software, a replacement for WeGame.",
+  "publish": [
+    {
+      "provider": "github",
+      "owner": "wakefun",
+      "repo": "frank"
+    }
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
